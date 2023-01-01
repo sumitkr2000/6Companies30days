@@ -28,6 +28,6 @@ public:
                 st.push((long)stoi(it));
             }
         }
-        return (int)st.top();
+        return st.top();
     }
 };

@@ -19,8 +19,7 @@ public:
             if(v1[i] != 0 && v2[i] != 0) {
                 c += min(v1[i], v2[i]);
             }
-        }
-        
+        }   
         return to_string(b) + "A" + to_string(c) + "B";
     }
 };
